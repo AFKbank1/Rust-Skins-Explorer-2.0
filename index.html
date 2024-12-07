@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rust Skins Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <section id="intro">
+        <h2>Welcome to Rust Skins Explorer</h2>
+        <p>Discover skins tailored to your needs, whether you're a collector, a roleplayer, or a seasoned survivalist. Start exploring now!</p>
+    </section>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1 class="site-title">Rust Skins Explorer</h1>
+        <p class="site-tagline">Explore Rust skins by biome, budget, and category</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <main>
+        <section class="categories">
+            <h2>Select a Category</h2>
+            <div class="category-buttons">
+                <button class="category-btn" data-hover="Explore Forest">Forest</button>
+                <button class="category-btn" data-hover="Explore Desert">Desert</button>
+                <button class="category-btn" data-hover="Explore Arctic">Arctic</button>
+                <button class="category-btn" data-hover="Explore Jungle (Coming Soon)">Jungle</button>
+                <button class="category-btn" data-hover="Explore Roleplay">Roleplay</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Main Content Section -->
+    <main>
+        <section id="featured">
+            <h2>Featured Skins</h2>
+            <div class="skin-list">
+                <!-- Skins will be dynamically loaded here -->
+                <p>Dynamic skins will appear here.</p>
+            </div>
+        </section>
+
+        <section id="all-skins">
+            <h2>All Skins</h2>
+            <label for="sort-options">Sort By:</label>
+            <select id="sort-options">
+                <option value="a-z">A-Z</option>
+                <option value="z-a">Z-A</option>
+                <option value="price-low-high">Price: Low to High</option>
+                <option value="price-high-low">Price: High to Low</option>
+            </select>
+            <div class="skin-grid">
+                <!-- Skins will be dynamically loaded here -->
+                <p>Dynamic skins will appear here.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Rust Skins Explorer. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
